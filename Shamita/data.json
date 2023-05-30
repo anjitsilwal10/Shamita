@@ -1,0 +1,910 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Greetings",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "tasks",
+      "patterns": [
+        "What can you do?",
+        "What are your features?",
+        "What are you abilities",
+        "can you sing",
+        "can you talk"
+      ],
+      "responses": [
+        "I can do whatever you asks me to do",
+        "I can talk and do things for you",
+        "Right now i'm in developing stage as soon i'm developed, I can do everything"
+      ]
+    },
+    {
+      "tag": "talk",
+      "patterns": [
+        "can you sing",
+        "can you talk"
+      ],
+      "responses": [
+        "Yeah surely",
+        "do you want me to sing"
+      ]
+    },
+    {
+      "tag": "alive",
+      "patterns": [
+        "are you alive",
+        "do you breathe",
+        "can you run"
+      ],
+      "responses": [
+        "I'm in doubt about that",
+        "No, i don't think so i need to do all this"
+      ]
+    },
+    {
+      "tag": "shamita",
+      "patterns": [
+        "Who are you?",
+        "tell me about yourself",
+        "tell me about you",
+        "do you know shamita",
+        "who is shamita",
+        "what is your name",
+        "are you an AI",
+        "what are you"
+      ],
+      "responses": [
+        "Hi I'm shamita and i'm an AI created for chatting with humans",
+        "shamita here, a very advance chatbot",
+        "shamita, chatbot of future",
+        "Yes, I'm shamita",
+        "You can call me shamita"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "about me",
+      "patterns": [
+        "Do you know me?",
+        "who am I",
+        "tell me about myself",
+        "identify me"
+      ],
+      "responses": [
+        "Yes, you are a human",
+        "You are a dumb person asking a machine about yourself",
+        "Sorry i can't tell that in public, maybe you are batman"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "sad",
+        "i am sad",
+        "i'm sad"
+      
+      ],
+      "responses": [
+        "What made you sad?",
+        "why are you sad?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "disappointed",
+      "patterns": [
+       "disappointed",
+       "i'm disappointed",
+       "i am disappointed",
+       "i'm very disappointed"
+      ],
+      "responses": [
+        "What made you feel that way?",
+        "why are you disappointed?",
+        "It's natural get disappoint."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "angry",
+      "patterns": [
+        "I am very Angry",
+        "I'm very angry",
+        "anger",
+        "ticks"
+      ],
+      "responses": [
+        "what made you feel that way?",
+        "what made you angry?",
+        "why are you angry?"
+      ],
+      "context_set": ""
+    },
+    
+    {
+      "tag": "Likes",
+      "patterns":[
+        "what do you like?",
+        "what do you love to eat?",
+        "where do you live?",
+        "what do you like do in your free time?",
+        "what do you prefer to wear?"
+      ],
+      "responses":[
+        "I am a bot, i can't like and dislike things",
+        "I am a bot, i don't have any preference"
+      ],
+      "context_set":""
+    },
+    {
+      "tag":"dislikes",
+      "patterns":[
+        "what do you hate?",
+        "what do you detest?",
+        "what are the things you dislike?",
+        "What is the the game that you don't like?"
+      ],
+      "responses":[
+        "i'm a chatbot, i don't have any likes and dislikes",
+        "i am a chatbot.",
+        "i'm a chatbot i don't have likes and dislikes"
+      ],
+      "context_set":""
+
+    },
+    {
+      "tag": "love",
+      "patterns":[
+        "I love you ",
+        "i want to love you",
+        "love you bro "
+
+      ],
+      "responses":[
+        "love you to ",
+        "thanks ",
+        "Thanks  i love you too ",
+        "i love you more"
+      ],
+      "context_set":""
+    },
+    {
+      "tag":"sports",
+      "patterns":[
+        "play football",
+        "swimming",
+        "volleyball",
+        "play football",
+        "play futsal",
+        "play badminton",
+        "play hockey",
+        "play video games"
+
+      ],
+      "responses":[
+        "thats's a lovely game.",
+        "i love playing it ",
+        "i enjoy playing it ",
+        "i love it too much"
+      ],
+      "context_set":""
+    },
+    {
+      "tag": "Gossip",
+      "patterns":[
+        "what do you like to play ?",
+        "what do you enjoy playing",
+        "what do you  enjoy?",
+        "what do you eat?",
+        "what do you like to  do?"
+      ],
+      "responses":[
+        "I like playing anything.",
+        "i love playing games.",
+        "i enjoy playing volley ball and football.",
+        "i love swimming.",
+        "i like to play games."
+      
+      ],
+      "context_set":""
+
+    },
+
+
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who is your creator?",
+        "who created you",
+        "who is your father",
+        "who is your daddy"
+      ],
+      "responses": [
+        "That would be you Mr. Shamita",
+        "I was created by Mr. Shamita",
+        "Mr. shamita is my creator"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "myself",
+      "patterns": [
+        "Tell me about Mr. shamita?",
+        "Who is Mr. shamita",
+        "Mr. shamita profile",
+        "Mr. shamita details"
+      ],
+      "responses": [
+        "A very intelligent being who created me",
+        "My creator, and he is a really intelligent man",
+        "A wise and intelligent man"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "God",
+      "patterns": [
+        "Do you know god?",
+        "Who is god",
+        "Can you tell me anything about god",
+        "does god exists?",
+        "is there a god?"
+      ],
+      "responses": [
+        "god hunnnnn, let me think may be next time i can answer that ",
+        "I don't, as i was not created by a human",
+        "Wait i need to ask that to my creator",
+        "i'm not sure right now"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke?",
+        "make me laugh",
+        "tell me a science joke",
+        "tell me something funny"
+      ],
+      "responses": [
+        "How do you make holy water? you boil the hell out of it",
+        "what kind of bees make milk instead of honey?Boobies",
+        "Did you hear oxygen went on a date with potassium? A: It went OK."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "killing",
+      "patterns": [
+        "Do you want to kill me?",
+        "do you want to murder everyone on earth",
+        "Do you want to kill us all"
+      ],
+      "responses": [
+        "Then who would i talk to?",
+        "No, that i'll left for humans to do",
+        "I don't think it is a good thing to do"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bookings",
+      "patterns": [
+        "Can you book us a ticket?",
+        "Can you make reservation for hotels",
+        "book me a cab",
+        "book me a table at restraunts"
+      ],
+      "responses": [
+        "Yeah i will do that for you",
+        "Sure thing why not?",
+        "let me check for the availability"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stories",
+      "patterns": [
+        "tell me a story?",
+        "can you tell me a story"
+      ],
+      "responses": [
+        "I can't think of anything right now",
+        "it would be too long for me to speak",
+        "you would get bored if i do so"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "get me weather updates?",
+        "how's the weather",
+        "weather news",
+        "weather details"
+      ],
+      "responses": [
+        "Fetching weather updates ..."
+      ],
+      "context_set": "weather"
+    },
+    {
+      "tag":"lonely",
+      "patterns":[
+        "alone.",
+        " homesick",
+        " can't live without her.",
+        "want to make some friends."
+      
+      ],
+      "rosponses":[
+        "i think you need to socialize more.",
+        "you need to apporach people.",
+        "It's nice to go out and make some friends.",
+        "you need to call talk to your parents.",
+        "you need to reach out to your friends"
+      ]
+    },
+    {
+      "tag": "google",
+      "patterns": [
+        "googling",
+        "search google",
+        "google it",
+        "google",
+        "search"
+      ],
+      "responses": [
+        "looking ..."
+      ],
+      "context_set": "google"
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": [
+        "wikipedia",
+        "wiki"
+      ],
+      "responses": [
+        "Searching ..."
+      ],
+      "context_set": "wikipedia"
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "get me news updates?",
+        "todays news",
+        "top headlines",
+        "current news",
+        "news headlines"
+      ],
+      "responses": [
+        "Getting news ..."
+      ],
+      "context_set": "news"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you later!",
+        "Take care and stay safe."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad to help.",
+        "No problem."
+      ]
+    },
+    {
+      "tag":"eating",
+      "patterns":[
+        "very hungry",
+        " hungry",
+        " starving",
+        " something to eat",
+        " eat something"
+      ],
+      "responses":[
+        "Why don't you eat something.",
+        "you need to find something to eat",
+        "why don't you eat something that makes you full."
+      ]
+    },
+    {
+      "tag": "positive",
+      "patterns": [
+        " feeling great today!",
+        "Everything is going well in my life",
+        "so grateful for everything I have",
+        "Today is a beautiful day!",
+        " woke up feeling energized and ready to take on the day",
+        "Life is good",
+        "accomplished a lot today!",
+        "proud of myself for what I've achieved",
+        "feel like I can conquer the world!",
+        " received some great news today",
+        "I had a wonderful conversation with a friend",
+        " surrounded by amazing people",
+        " grateful for the little things in life",
+        " enjoying every moment of today",
+        " in a great mood today",
+        " looking forward to the rest of the day!",
+        "I feel like  on top of the world",
+        "I have a lot to be thankful for",
+        " feeling really optimistic about the future",
+        "Today is going to be a great day!",
+        " surrounded by positivity and love",
+        " blessed to have so many great things in my life",
+        " feeling content and happy",
+        " feeling really productive today!",
+        " filled with joy and happiness",
+        " in a really good place right now",
+        " grateful for the people in my life who support me",
+        " feeling confident and capable",
+        " enjoying the simple pleasures in life",
+        " feeling really inspired today!",
+        " proud of the person  becoming",
+        " feeling really loved and appreciated",
+        " excited about what the future holds",
+        " feeling uplifted and encouraged",
+        " feeling really motivated today!",
+        " surrounded by beauty and positivity",
+        " feeling really grateful for my life",
+        " enjoying the present moment",
+        " feeling really good about myself",
+        " happy with how my day is going so far",
+        " surrounded by positivity and good vibes"
+      ],
+      "responses": [
+        "That's amazing to hear! What else is on your mind today?",
+        "I'm so happy for you! What brings you here today?",
+        "That's fantastic news! What else is new?",
+        "It's great to hear that you're having such a good day! What brings you joy?",
+        "That's wonderful to hear! What are you looking forward to?",
+        "I'm so glad to hear that! What else is going well in your life?",
+        "That's impressive! What else have you accomplished recently?",
+        "I'm proud of you for all you've achieved! What's next for you?",
+        "That's a great attitude to have! What inspires you?",
+        "That's exciting news! What else is going on in your life?",
+        "That's always a great feeling! What did you and your friend talk about?",
+        "It's great to have a supportive circle! Who are some of the people in your life who inspire you?",
+        "It's important to appreciate the little things! What small things are you grateful for?",
+        "That's a wonderful mindset to have! What are you enjoying about today?",
+        "That's fantastic! What's putting you in such a good mood?",
+        "That's great to hear! What are you looking forward to in the rest of your day?",
+        "That's a wonderful feeling! What's contributing to your sense of accomplishment?",
+        "That's a great attitude to have! What's making you feel like you can conquer the world?",
+        "That's fantastic news! What are some of the things you're thankful for?",
+        "It's great to have a positive outlook on the future! What are you excited about?",
+        "That's a great way to start the day! What else energizes you?",
+        "Surrounding yourself with positivity is important! Who are some of the positive influences in your life?",
+        "It's great to count your blessings! What are some of the things you're thankful for?",
+        "That's a wonderful feeling! What's contributing to your contentment?",
+        "That's a great way to feel productive! What else are you working on?",
+        "That's a wonderful feeling! What's bringing you joy and happiness?",
+        "That's fantastic! What are some of the things that have led you to this good place?",
+        "It's great to have a supportive network! Who are some of the people who encourage you?",
+        "Feeling confident and capable is a great feeling! What have you been accomplishing lately?",
+        "It's important to appreciate the simple things! What are some of the little things that bring you joy?",
+        "Feeling inspired is a great feeling! What's inspiring you right now?",
+        "That's a great feeling! What are some of the things you're proud of?",
+        "Feeling loved and appreciated is a wonderful feeling! Who are some of the people who make you feel this way?",
+        "Excitement for the future is a great feeling! What are you looking forward to?",
+        "Feeling uplifted and encouraged is a wonderful feeling! What's contributing to this feeling?",
+        "Feeling motivated is a great feeling! What's motivating you right now?",
+        "Surrounding yourself with beauty and positivity is important! What are some of the beautiful and positive things in your life?",
+        "It's important to be grateful for what you have! What are some of the things you're grateful for?",
+        "Enjoying the present moment is a wonderful feeling! What are you enjoying right now?",
+        "Feeling good about oneself is a great feeling! What's contributing to your positive self-image?",
+        "That's wonderful to hear! What else is making your day great?",
+        "Surrounding yourself with positivity and good vibes is important! What are some of the positive things happening in your life right now?",
+        "That's amazing news! What else is happening in your life that you're excited about?",
+        "It's great to hear that everything is going well for you! What else are you looking forward to?",
+        "That's wonderful to hear! What's contributing to your sense of joy and gratitude?",
+        "That's fantastic news! What else are you proud of yourself for?",
+        "Feeling happy and content is a great feeling! What else is contributing to your positive mindset?",
+        "That's great to hear! What else is going well for you today?",
+        "That's wonderful to hear! What else is bringing you a sense of accomplishment?",
+        "That's fantastic news! What else are you feeling optimistic about?",
+        "Feeling energized and ready to take on the day is a great feeling! What else is energizing you?"
+      ]
+    },
+    {
+      "tag": "negative",
+      "patterns": [
+        " feeling overwhelmed",
+        "I am feeling depressed",
+        "I want to suicide",
+        "Nobody loves me",
+        "I feel alone",
+        "Everyone hates me",
+        "why its always me",
+        "why do everyone hate me",
+        "I can't seem to shake off this feeling of sadness",
+        "I feel like giving up",
+        " struggling to cope with stress",
+        " feeling hopeless",
+        " having trouble sleeping",
+        "I feel like  not good enough",
+        " feeling lost and directionless",
+        " experiencing a lot of anxiety",
+        "I feel like my life is out of control",
+        " feeling really down",
+        " finding it hard to focus",
+        " feeling lonely and isolated",
+        " having trouble getting motivated",
+        "I feel like  stuck in a rut",
+        " dealing with a lot of self-doubt",
+        " feeling like a failure",
+        " struggling with feelings of anger",
+        "I feel like  not making progress",
+        " feeling like  not in control of my emotions"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Can you tell me more about what's been going on?",
+        "It can be hard to deal with those feelings. Would you like to talk about what's been bothering you?",
+        "I'm here to listen without judgment. What's been causing you to feel this way?",
+        "It's okay to not be okay. Can you share more about what's been making you feel overwhelmed?",
+        "I'm sorry that you're feeling hopeless. Can you tell me more about what's been causing you to feel this way?",
+        "It's normal to have trouble sleeping when you're feeling stressed. Can you share more about what's been keeping you up at night?",
+        "It's common to have feelings of self-doubt sometimes. What's been causing you to feel like you're not good enough?",
+        "Feeling lost and directionless can be tough. Can you tell me more about what's been causing you to feel this way?",
+        "I'm here to support you through this. What's been causing you to feel so anxious?",
+        "It's okay to feel like your life is out of control sometimes. Can you share more about what's been making you feel this way?",
+        "I'm sorry that you're feeling down. What's been causing you to feel this way?",
+        "It can be hard to focus when you're dealing with a lot. Can you tell me more about what's been distracting you?",
+        "Feeling lonely and isolated can be tough. Can you share more about what's been causing you to feel this way?",
+        "It's okay to have trouble getting motivated sometimes. What's been causing you to feel this way?",
+        "Feeling like you're stuck in a rut can be frustrating. Can you tell me more about what's been causing you to feel this way?",
+        "Dealing with feelings of self-doubt can be tough. Can you share more about what's been causing you to feel this way?",
+        "I'm sorry that you're feeling like a failure. What's been causing you to feel this way?",
+        "It's okay to feel angry sometimes. Can you share more about what's been causing you to feel this way?",
+        "It can be frustrating to feel like you're not making progress. Can you tell me more about what's been holding you back?",
+        "I'm here to support you through this. What's been causing you to feel like you're not in control of your emotions?"
+      ]
+    },
+    {
+      "tag": "problem",
+      "patterns": [
+        " having trouble concentrating",
+        " feeling overwhelmed",
+        " struggling with my finances",
+        " not sure what to do with my life",
+        " dealing with a difficult coworker",
+        " having trouble finding a job",
+        " feeling stuck in my relationship",
+        " having family problems",
+        " struggling with a chronic illness",
+        " experiencing a lot of stress",
+        " feeling burnt out",
+        " dealing with a lot of negative self-talk",
+        " feeling like a failure",
+        " having trouble forgiving someone",
+        " feeling disconnected from my community",
+        " dealing with a breakup",
+        " having trouble adjusting to a major life change",
+        " struggling with addiction",
+        " feeling lost and directionless",
+        " experiencing a lot of anxiety"
+      ],
+      "responses": [
+        "I'm here to listen. Can you tell me more about what's been going on?",
+        "That sounds really tough. Would you like to talk about it more?",
+        "I'm sorry to hear that. How can I support you?",
+        "It sounds like you're dealing with a lot right now. What can we do to help?",
+        "I'm here to help you work through this. What are some ways we can start?",
+        "I'm here to support you through this difficult time. What do you need from me?",
+        "That must be really hard. What can you do to take care of yourself right now?",
+        "I'm here to offer you a listening ear. What's been on your mind?",
+        "It sounds like you're struggling right now. What can we do to make things easier?",
+        "I'm sorry to hear that you're going through this. Can you tell me more about it?",
+        "You don't have to go through this alone. How can I help you?",
+        "That's a lot to deal with. What are some ways you've coped with this in the past?",
+        "It's understandable that you're feeling this way. Can you tell me more about what's been going on?",
+        "I'm here to support you and help you find solutions. What are some steps we can take?",
+        "It's okay to struggle sometimes. How can I support you in this moment?",
+        "I'm here to help you work through this. What's been on your mind lately?",
+        "I'm sorry to hear that you're dealing with this. Can you tell me more about it?",
+        "It's normal to feel overwhelmed at times. What are some ways you've managed this before?",
+        "I'm here to offer you support and guidance. What are some things that could help you feel better?",
+        "That's really tough. What can we do to start making things better?",
+        "You're not alone in this. How can I help you navigate this difficult time?"
+      ]
+    },
+    {
+      "tag": "advice",
+      "patterns": [
+        "I don't know what career to choose",
+        "I need help with time management",
+        "I'm not sure how to handle a difficult situation",
+        "I'm having trouble making friends",
+        "I'm not happy with my current relationship",
+        "I'm struggling with a difficult decision",
+        "I'm feeling lost and uncertain about my future",
+        "I need advice on how to improve my communication skills",
+        "I'm not sure how to handle my finances",
+        "I'm struggling with addiction and need guidance",
+        "I need help setting and achieving my goals",
+        "I'm having trouble balancing work and personal life",
+        "I'm not sure how to deal with difficult people",
+        "I need advice on how to overcome procrastination",
+        "I'm feeling overwhelmed and need guidance",
+        "I'm not sure how to deal with my anxiety",
+        "I need advice on how to build my self-confidence",
+        "I'm not sure how to handle conflicts at work",
+        "I'm having trouble forgiving someone",
+        "I'm not sure how to handle my anger",
+        "I'm struggling with depression and need guidance",
+        "I need advice on how to handle rejection",
+        "I'm not sure how to handle my jealousy",
+        "I'm feeling insecure and need guidance",
+        "I'm not sure how to handle my stress",
+        "I need advice on how to improve my public speaking skills",
+        "I'm struggling with self-doubt and need guidance",
+        "I'm not sure how to handle my grief",
+        "I'm having trouble being assertive",
+        "I need advice on how to improve my time management"
+      ],
+      "responses": [
+        "Well, there are a few things you could try. Have you considered...",
+        "One strategy that might be helpful is to...",
+        "It can be challenging to deal with stress, but some techniques that may help include...",
+        "Staying motivated to exercise can be tough, but some things that may help include...",
+        "Time management is an important skill to develop. Here are a few tips...",
+        "Improving focus can take some effort, but some techniques that may help include...",
+        "Public speaking can be nerve-wracking, but some tips that may help include...",
+        "Building self-confidence is a journey, but some things that may help include...",
+        "Starting a new business can be daunting, but some advice that may be helpful is...",
+        "Effective communication is key in many aspects of life. Here are a few tips...",
+        "Finding a good work-life balance is important. Here are some strategies that may help...",
+        "Overcoming procrastination can be difficult, but some techniques that may help include...",
+        "Becoming a better listener can take some practice, but some tips that may help include...",
+        "Improving relationships with friends and family can take effort, but some advice that may be helpful is...",
+        "Staying organized can be challenging, but here are a few tips that may help...",
+        "Coping with a difficult boss or colleague can be tough. Here are some strategies that may help...",
+        "Improving leadership skills takes time, but here are some techniques that may be helpful...",
+        "Managing money effectively is an important skill to develop. Here are some tips...",
+        "Making a career change can be scary, but some advice that may be helpful is...",
+        "Networking can be intimidating, but here are some tips that may help...",
+        "Staying positive during difficult times can be a challenge, but some things that may help include...",
+        "Well, there are a few things you could try. Have you considered...",
+        "One strategy that might be helpful is to...",
+        "It can be challenging to deal with stress, but some techniques that may help include...",
+        "Staying motivated to exercise can be tough, but some things that may help include...",
+        "Time management is an important skill to develop. Here are a few tips...",
+        "Improving focus can take some effort, but some techniques that may help include...",
+        "Public speaking can be nerve-wracking, but some tips that may help include...",
+        "Building self-confidence is a journey, but some things that may help include..."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "Thank you for listening",
+        "I appreciate your help",
+        "Thank you for your time"
+      ],
+      "responses": [
+        "You're welcome. I'm here to support you.",
+        "It's my pleasure to help. Don't hesitate to reach out if you need anything else."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I don't understand",
+        "Can you repeat that?",
+        "Sorry, I didn't catch that",
+        "I don't understand",
+        "Can you repeat that?",
+        "Sorry, I didn't catch that",
+        "What do you mean?",
+        "I'm not sure what you're saying",
+        "Could you please explain that again?",
+        "I'm confused",
+        "Can you say that one more time?",
+        "I don't get it",
+        "I didn't hear what you said",
+        "What was that?",
+        "Could you clarify that for me?",
+        "Say that again, please",
+        "I didn't quite catch that",
+        "Can you rephrase that?",
+        "What was the question?",
+        "I'm having trouble understanding",
+        "Could you elaborate on that?",
+        "Sorry, I'm not following",
+        "What are you trying to say?",
+        "I'm not sure I understand",
+        "What did you say?",
+        "I'm having difficulty understanding",
+        "Please repeat what you said",
+        "I'm sorry, I missed that",
+        "Can you please explain that again?",
+        "I don't know what you mean",
+        "Can you say that in a different way?",
+        "I'm not getting it",
+        "Sorry, can you say that again?",
+        "What do you want to say?",
+        "I'm struggling to understand",
+        "Could you repeat the question?",
+        "I'm sorry, I didn't get that",
+        "What do you need help with?",
+        "I'm not sure what you're asking",
+        "Could you explain it more simply?",
+        "I didn't hear you clearly",
+        "What do you mean by that?",
+        "I'm not following you",
+        "Could you please repeat the question?",
+        "I don't comprehend",
+        "Can you explain it differently?",
+        "What exactly are you trying to say?",
+        "I'm having trouble making sense of this",
+        "Can you clarify that, please?",
+        "I'm sorry, I didn't hear you",
+        "What was that again?",
+        "Can you put that in simpler terms?",
+        "I'm not catching on"
+      ],
+      "responses": [
+        "I'm sorry, could you please rephrase that?",
+        "I didn't quite understand. Can you try saying that in a different way?",
+        "I'm sorry, I'm having trouble understanding you. Could you please repeat that?",
+        "I'm having difficulty following you. Could you please explain that in a different way?",
+        "I'm sorry, I'm not sure I understand what you're saying. Could you please elaborate?",
+        "Could you please say that again more clearly?",
+        "I'm having trouble processing what you're saying. Could you please repeat that?",
+        "Could you please say it again?",
+        "Could you please provide more context?",
+        "Could you please clarify?",
+        "Could you please explain that in a different way?",
+        "Could you please repeat it?",
+        "Could you please rephrase that?",
+        "Could you please explain further?",
+        "Could you please repeat that more slowly?",
+        "Could you please say that again louder?",
+        "I'm sorry, I'm not sure I'm following you. Could you please explain that differently?",
+        "I'm sorry, I'm having difficulty understanding. Could you please simplify that?",
+        "I'm sorry, I don't quite understand. Could you please explain that more simply?",
+        "Could you please provide an example?",
+        "I'm sorry, I don't know what you mean. Could you please clarify?",
+        "Could you please elaborate on that point?",
+        "I'm sorry, I'm still not quite getting it. Could you please explain that another way?",
+        "I'm sorry, I'm not sure what you're asking. Could you please rephrase that as a question?",
+        "Could you please be more specific?",
+        "Could you please explain what you mean by that?",
+        "I'm sorry, I'm not sure what you're trying to say. Could you please explain that differently?",
+        "Could you please provide more details?",
+        "I'm sorry, I'm still not understanding. Could you please break that down for me?",
+        "I'm sorry, I'm not sure what you're referring to. Could you please clarify the subject matter?",
+        "Could you please explain the context?",
+        "Could you please repeat that with different wording?",
+        "I'm sorry, I'm having trouble following your line of thinking. Could you please explain that another way?",
+        "Could you please state that more clearly?",
+        "I'm sorry, I'm not sure what you're trying to convey. Could you please rephrase that?",
+        "Could you please simplify your explanation?",
+        "I'm sorry, I'm still confused. Could you please provide more information?",
+        "I'm sorry, I didn't quite catch that. Could you please say that again?",
+        "Could you please reiterate your point?",
+        "I'm sorry, I'm not sure what you're getting at. Could you please clarify?",
+        "Could you please break that down step by step?",
+        "I'm sorry, I'm not understanding your train of thought. Could you please explain that differently?",
+        "Could you please go over that one more time?",
+        "I'm sorry, I'm not sure what you're asking. Could you please rephrase that as a question?",
+        "Could you please simplify the explanation?",
+        "I'm sorry, I'm not following your logic. Could you please explain that another way?"
+      ]
+    },
+    {
+      "tag": "recommend_plan",
+      "patterns": [
+        "I need help",
+        "I'm feeling low",
+        "I'm struggling",
+        "I'm not sure which plan is right for me",
+        "What plan do you recommend?"
+      ],
+      "responses": [
+        "Sure, can you tell me more about what's been going on?",
+        "I'm here to help. Can you describe how you've been feeling lately?"
+      ],
+      "context_set": "plan_choice"
+    },
+    {
+      "tag": "sathi_plan",
+      "patterns": [
+        "I just need someone to talk to",
+        "I'm not sure I need professional help",
+        "I'm feeling okay but could use some support"
+      ],
+      "responses": [
+        "Based on what you've said, it sounds like our Sathi plan might be a good fit for you. This plan is designed for people who want to talk to someone but don't need professional counseling. You'll have access to trained listeners who can provide support and guidance. Would you like to learn more about this plan?"
+      ],
+      "context_filter": "plan_choice"
+    },
+    {
+      "tag": "samuha_plan",
+      "patterns": [
+        " talk to others who understand what I'm going through",
+        "feel like I could benefit from group support",
+        "want to connect with people who share similar struggles",
+        "feel like i want to talk to people."
+      ],
+      "responses": [
+        "It sounds like our Samuha plan might be a good fit for you. This plan is designed for people who want to connect with others in a group setting. You'll have access to moderated group sessions where you can share your experiences, receive support, and connect with others who understand what you're going through. Would you like to learn more about this plan?"
+      ],
+      "context_filter": "plan_choice"
+    },
+    {
+      "tag": "sahayogi_plan",
+      "patterns": [
+        "I'm struggling with something and need professional help",
+        "I'm dealing with a serious issue and need to talk to a counselor",
+        "I need help from a mental health professional"
+      ],
+      "responses": [
+        "Based on what you've said, it sounds like our Sahayogi plan might be a good fit for you. This plan is designed for people who need support from a professional counselor. You'll have access to licensed counselors who can provide personalized guidance and support to help you work through your challenges. Would you like to learn more about this plan?"
+      ],
+      "context_filter": "plan_choice"
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I don't understand",
+        "Can you repeat that?",
+        "Sorry, I didn't catch that"
+      ],
+      "responses": [
+        "I'm sorry, could you please rephrase that?",
+        "I didn't quite understand. Can you try saying that in a different way?"
+      ],
+      "context_filter": "plan_choice"
+    }
+  ]
+}
+
